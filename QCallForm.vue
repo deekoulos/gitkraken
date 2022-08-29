@@ -49,7 +49,7 @@ export default {
       const submitted = ref(false);
 
     const rules = {
-      
+      console.log("test");
     };
 
     const v$ = useVuelidate(rules, user);
